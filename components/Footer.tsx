@@ -6,15 +6,6 @@ export default function Footer() {
       <div>
         Powered by{' '}
         <a
-          href="https://huggingface.co/meta-llama/Llama-2-70b-chat-hf"
-          target="_blank"
-          rel="noreferrer"
-          className="font-bold hover:underline transition underline-offset-2"
-        >
-          Mixtral MOE{' '}
-        </a>
-        and{' '}
-        <a
           href="https://together.ai"
           target="_blank"
           rel="noreferrer"
@@ -25,7 +16,7 @@ export default function Footer() {
       </div>
       <div className="flex space-x-4 pb-4 sm:pb-0">
         <Link
-          href="https://twitter.com/nutlope"
+          href="https://twitter.com/toluwa"
           className="group"
           aria-label="Twitter"
         >
@@ -37,7 +28,7 @@ export default function Footer() {
           </svg>
         </Link>
         <Link
-          href="https://github.com/Nutlope/chat"
+          href="https://github.com/ayotolusam/chat-app"
           className="group"
           aria-label="GitHub"
         >
